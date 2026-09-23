@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "ask": [
+      "mcp__Gmail__send_message",
+      "mcp__Gmail__reply",
+      "mcp__Gmail__forward",
+      "mcp__Hostinger_Mail__email_call_api_write"
+    ]
+  }
+}
