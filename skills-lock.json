@@ -1,12 +1,6 @@
 {
   "version": 2,
   "skills": {
-    "figma": {
-      "source": "heygen-com/hyperframes",
-      "sourceType": "github",
-      "skillPath": "skills/figma/SKILL.md",
-      "computedHash": "0e6398ef34b30dec730d4225a20bdb20e7ed2309ece8abea95949549fe19f3ac"
-    },
     "hyperframes": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",
