@@ -27,6 +27,11 @@ files in this repository stays in English.
 | 09 | Three.js Skills | 3D scenes: animated objects, lighting, camera moves | Source URL not confirmed, ask the user |
 | 10 | HyperFrames | Render video from HTML, CSS and GSAP animations | `npx skills add heygen-com/hyperframes` |
 
+HyperFrames install: the full package also ships a `figma` skill that the
+user does not want. Install selectively instead:
+`npx skills add heygen-com/hyperframes -y -s hyperframes -s hyperframes-cli -s hyperframes-registry -s media-use -s remotion-to-hyperframes -s reverse-any-video -s slideshow -s style-sampling`
+If `figma` appears anyway, run `npx skills remove -s figma -y`.
+
 Rule: the carousel only shows names, not links. Never guess a repository URL
 or install command. If a tool is marked "ask the user", request the link
 before installing anything from it.
